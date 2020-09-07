@@ -27,7 +27,7 @@ public class Pair
     {
         this.num1 = num1;
         this.num2 = num2;
-    }
+    } 
     public int sum()
     {
         int sum = num1 + num2;
