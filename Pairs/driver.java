@@ -4,11 +4,12 @@ public class driver
 {
     public static void main(String[] args)
     {
+        // variable declaration needed for the main method
         Scanner input = new Scanner(System.in);
         boolean notEqual = true;
         int num1;
         int num2;
-        do {
+        do { // Prompting user for input
             System.out.print("Input a number: ");
             num1 = input.nextInt();
             System.out.print("Input another number that isn't equal to the previous one: ");
